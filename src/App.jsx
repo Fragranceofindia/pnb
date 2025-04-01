@@ -14,7 +14,7 @@ const NotFound = () => {
       <header className="bg-[#A20E37] p-4 flex justify-between items-center">
         <div className="flex items-center">
           <div className="text-white">
-            <h1 className="text-3xl font-serif">Punjab National Bank</h1>
+            <h1 className="text-3xl font-serif">Punjab National Bank New</h1>
             <div className="bg-[#FBBC09] text-[#A20E37] px-2 py-0.5 text-xs mt-1 rounded inline-block font-semibold">
               The Name You Can Bank Upon
             </div>
