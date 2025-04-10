@@ -2,6 +2,18 @@ import { db } from './firebase';
 import { setDoc,onSnapshot, doc, collection,updateDoc, deleteDoc,getDoc,getDocs,writeBatch,serverTimestamp } from 'firebase/firestore';
 
 class FirebaseUtil {
+  static async initialize() {
+    try {
+      // Test connection by fetching a document
+      const testRef = doc(db, "test", "connection");
+      await getDoc(testRef);
+      return true;
+    } catch (error) {
+      console.error("Firebase initialization error:", error);
+      throw error;
+    }
+  }
+
   static async uploadAnyModel(path, model) {
     try {
       // Validate path

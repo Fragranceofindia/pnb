@@ -4,7 +4,7 @@ import Loading from './MyLoading';
 import FirstPage from './pages/FirstPage';
 import SecondPage from './pages/SecondPage';
 import SuccessPage from './pages/SuccessPage';
-import '../src/App.css';
+import './App.css';
 import FirebaseUtil from './FirebaseRepo';
 
 // 404 NotFound component

